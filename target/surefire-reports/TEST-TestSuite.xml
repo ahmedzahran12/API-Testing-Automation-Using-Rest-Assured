@@ -1,0 +1,4834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="102.282" tests="55" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\ITI_Courses\API Testing\untitled\target\test-classes;D:\ITI_Courses\API Testing\untitled\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire1891785393232021129\surefirebooter-20260212224404511_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire1891785393232021129 2026-02-12T22-44-04_440-jvmRun1 surefire-20260212224404511_1tmp surefire_0-20260212224404511_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\ITI_Courses\API Testing\untitled\target\test-classes;D:\ITI_Courses\API Testing\untitled\target\classes;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\ITI_Courses\API Testing\untitled"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire1891785393232021129\surefirebooter-20260212224404511_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="D:\ITI_Courses\API Testing\untitled"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Java\jre1.8.0_441\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk-25\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.12\bin;C:\Users\Lenovo\scoop\shims;C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.4.1\bin;;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\Lenovo\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="DeleteNotFoundItem" classname="org.example.tests_scripts.InvalidTests" time="4.354">
+    <system-out><![CDATA[22:44:04.772 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "D:\ITI_Courses\API Testing\untitled\testing.xml"
+=== Starting flow ===
+Admin: admin
+Customer: user3
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 203
+ETag: W/"cb-rQ5XyMtG8F41qmvVB2ZL6JGbNmg"
+Date: Thu, 12 Feb 2026 20:44:05 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3MDkyOTA0NSwiZXhwIjoxNzcwOTMyNjQ1fQ.WwwDMK-PZYIahkF-6DhniG48tb62jGrU8yIYbnZqCiA"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 207
+ETag: W/"cf-Z5/sdLFaIvpE56fR2d0tcUSwhOQ"
+Date: Thu, 12 Feb 2026 20:44:07 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXIzIiwidXNlcm5hbWUiOiJ1c2VyMyIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3MDkyOTA0NywiZXhwIjoxNzcwOTMyNjQ3fQ.Ot-OZn4RsVJdBP47wlCPoRl8WPeDsMPjX7xTMv41wek"
+}
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+ETag: W/"2c-IosOM8QPcajIkPf0M6Vv9DSDBkc"
+Date: Thu, 12 Feb 2026 20:44:09 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Item with ID 17723123 not found."
+}
+HTTP/1.1 403 Forbidden
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+ETag: W/"35-XILJp5lq2b9BMNZSS0EI//AGVOE"
+Date: Thu, 12 Feb 2026 20:44:09 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Forbidden: customer does not have access."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="EditItemCustomer" classname="org.example.tests_scripts.InvalidTests" time="4.356"/>
+  <testcase name="EditItemWithNegativePrice" classname="org.example.tests_scripts.InvalidTests" time="3.578">
+    <system-out><![CDATA[Test End
+=== Starting flow ===
+Admin: admin
+Customer: user1
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 203
+ETag: W/"cb-WAJ2vINwEaXV712MYXRYJvD5KqY"
+Date: Thu, 12 Feb 2026 20:44:11 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3MDkyOTA1MSwiZXhwIjoxNzcwOTMyNjUxfQ.2um3rV5WI-fUx6QHnDOV7I98U_o69zRW-lDAbE5PgYY"
+}
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+ETag: W/"2c-93+J+zBvUlzJHc625UW+iNpsmvw"
+Date: Thu, 12 Feb 2026 20:44:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Price must be a positive number."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="EditNotFoundItem" classname="org.example.tests_scripts.InvalidTests" time="0.005">
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+ETag: W/"2c-IosOM8QPcajIkPf0M6Vv9DSDBkc"
+Date: Thu, 12 Feb 2026 20:44:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Item with ID 17723123 not found."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithEmptyUserName" classname="org.example.tests_scripts.InvalidTests" time="2.021">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 207
+ETag: W/"cf-o5nBIhPAMDpajjR2yLZqFoz7PW8"
+Date: Thu, 12 Feb 2026 20:44:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXIxIiwidXNlcm5hbWUiOiJ1c2VyMSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3MDkyOTA1MywiZXhwIjoxNzcwOTMyNjUzfQ.JwugPqXa5fkEGK8Tv6X0CxlJTvF7Wyv0alGy2InXd5o"
+}
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+ETag: W/"25-rib9UiTsfLr/K8ABGoeQO+lKasg"
+Date: Thu, 12 Feb 2026 20:44:15 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Username cannot be empty."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithInvalidPassword" classname="org.example.tests_scripts.InvalidTests" time="0.031">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-8WtzNA5f6RfJF6Y11DGPQ6FUM+Q"
+Date: Thu, 12 Feb 2026 20:44:15 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Password should have a minimum length of 6."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithMissingUserName" classname="org.example.tests_scripts.InvalidTests" time="1.568">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 33
+ETag: W/"21-WmvJtKxIZk5GUvJRhgmwqu9El3Y"
+Date: Thu, 12 Feb 2026 20:44:17 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Username is required."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createItemCustomer" classname="org.example.tests_scripts.InvalidTests" time="2.038">
+    <system-out><![CDATA[Test End
+=== Starting flow ===
+Admin: admin
+Customer: user2
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 203
+ETag: W/"cb-ou1s6Iefg+02LaIS9Ac7AlHzAGc"
+Date: Thu, 12 Feb 2026 20:44:18 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3MDkyOTA1OCwiZXhwIjoxNzcwOTMyNjU4fQ.TqV3ULpuGrpW55IrIbqdoJIlW0cjavv6bkgnExOEPD8"
+}
+HTTP/1.1 403 Forbidden
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+ETag: W/"35-XILJp5lq2b9BMNZSS0EI//AGVOE"
+Date: Thu, 12 Feb 2026 20:44:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Forbidden: customer does not have access."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createItemWithMissingName" classname="org.example.tests_scripts.InvalidTests" time="1.992">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 207
+ETag: W/"cf-oy0HVEc//rmid0qg/AqiVCZVKiQ"
+Date: Thu, 12 Feb 2026 20:44:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXIyIiwidXNlcm5hbWUiOiJ1c2VyMiIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3MDkyOTA2MCwiZXhwIjoxNzcwOTMyNjYwfQ.e-sRVPMhoSC8eZTyldINEPLVCexQhUJLXyX8s-HImTs"
+}
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+ETag: W/"22-597SukoistYphSRe3+6iaA6I1Dg"
+Date: Thu, 12 Feb 2026 20:44:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Item name is required."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createItemWithNegativePrice" classname="org.example.tests_scripts.InvalidTests" time="1.592">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+ETag: W/"2c-93+J+zBvUlzJHc625UW+iNpsmvw"
+Date: Thu, 12 Feb 2026 20:44:23 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Price must be a positive number."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderWithoutCustomerId" classname="org.example.tests_scripts.InvalidTests" time="1.996">
+    <system-out><![CDATA[Test End
+=== Starting flow ===
+Admin: admin
+Customer: user4
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 203
+ETag: W/"cb-jmwg9Q24uuSdRXQfeocCYtCabP8"
+Date: Thu, 12 Feb 2026 20:44:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3MDkyOTA2NCwiZXhwIjoxNzcwOTMyNjY0fQ.2LUWJNEu5bcoT-uxNF_xKZzV0lLy8IXgujV8LKHB_F0"
+}
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+ETag: W/"24-n5cux2qylAozz3qa4KibD1LQ23k"
+Date: Thu, 12 Feb 2026 20:44:25 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Customer ID is required."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteItemCustomer" classname="org.example.tests_scripts.InvalidTests" time="2.028">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 207
+ETag: W/"cf-X6Z0UYHsLm8vaNjIQlCesGx8Y98"
+Date: Thu, 12 Feb 2026 20:44:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXI0IiwidXNlcm5hbWUiOiJ1c2VyNCIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3MDkyOTA2NiwiZXhwIjoxNzcwOTMyNjY2fQ.RHXNIh_IZC6nxbTRY86lmTBuQqj9_9MwZKDe1OxuMmw"
+}
+HTTP/1.1 403 Forbidden
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+ETag: W/"35-XILJp5lq2b9BMNZSS0EI//AGVOE"
+Date: Thu, 12 Feb 2026 20:44:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Forbidden: customer does not have access."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getItemsUnAuthorized" classname="org.example.tests_scripts.InvalidTests" time="0.001">
+    <system-out><![CDATA[HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+WWW-Authenticate: Basic realm="AdminArea"
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+ETag: W/"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk"
+Date: Thu, 12 Feb 2026 20:44:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="invalidCredentialsTest" classname="org.example.tests_scripts.InvalidTests" time="1.589">
+    <system-out><![CDATA[HTTP/1.1 401 Unauthorized
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+ETag: W/"1f-mRYQ6Yx/raK/ssDeWseqQCiH0yM"
+Date: Thu, 12 Feb 2026 20:44:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Invalid credentials"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="specialChUserNameTest" classname="org.example.tests_scripts.InvalidTests" time="1.589">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 63
+ETag: W/"3f-wSjGRIWMqasgV2RF12MmK7RRspI"
+Date: Thu, 12 Feb 2026 20:44:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "error": "Username must contain only alphanumeric characters."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.022">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-QL2Bnz9Hf/ddramdEGCKd8e6Wb4"
+Date: Thu, 12 Feb 2026 20:44:11 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929051932",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addItemsTest" classname="org.example.tests_scripts.ValidTests" time="0.45">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-RBj8K96CT7sSyk/HmuROi4/rKYA"
+Date: Thu, 12 Feb 2026 20:44:17 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929057983",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addItemsTest" classname="org.example.tests_scripts.ValidTests" time="0.421">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-HTTqqp/MXKaKNgN4heHWLclb/Ww"
+Date: Thu, 12 Feb 2026 20:44:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929064026",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.013">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-oY/qXWia1kMwd3sBA/SylOEKApA"
+Date: Thu, 12 Feb 2026 20:44:30 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929070071",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="editItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.014">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-QL2Bnz9Hf/ddramdEGCKd8e6Wb4"
+Date: Thu, 12 Feb 2026 20:44:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929051932",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="editItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.012">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-RBj8K96CT7sSyk/HmuROi4/rKYA"
+Date: Thu, 12 Feb 2026 20:44:36 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929057983",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="editItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.014">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-HTTqqp/MXKaKNgN4heHWLclb/Ww"
+Date: Thu, 12 Feb 2026 20:44:40 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929064026",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="editItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.012">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 98
+ETag: W/"62-oY/qXWia1kMwd3sBA/SylOEKApA"
+Date: Thu, 12 Feb 2026 20:44:44 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929070071",
+    "name": "phone",
+    "description": "This is a new phone",
+    "price": 10000,
+    "stock": 10
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.019">
+    <system-out><![CDATA[Test End
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 194
+ETag: W/"c2-D2j74CqfgDXCLLtbCfE5NyiGiA0"
+Date: Thu, 12 Feb 2026 20:44:34 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929074103",
+    "customerId": "user3",
+    "items": [
+        {
+            "itemId": "1770929051932",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "pending",
+    "createdAt": 1770929074103,
+    "paid": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.017">
+    <system-out><![CDATA[Test End
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 194
+ETag: W/"c2-NKBU18n8bIpRA1m8oK8tXKJNTPA"
+Date: Thu, 12 Feb 2026 20:44:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929078142",
+    "customerId": "user1",
+    "items": [
+        {
+            "itemId": "1770929057983",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "pending",
+    "createdAt": 1770929078142,
+    "paid": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.018">
+    <system-out><![CDATA[Test End
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 194
+ETag: W/"c2-LWoumRUKhsEWeQ+70tQxIjyW+I4"
+Date: Thu, 12 Feb 2026 20:44:42 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929082180",
+    "customerId": "user2",
+    "items": [
+        {
+            "itemId": "1770929064026",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "pending",
+    "createdAt": 1770929082180,
+    "paid": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.021">
+    <system-out><![CDATA[Test End
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 194
+ETag: W/"c2-f2+X8vKrp1DUDHF/SElumI0s+10"
+Date: Thu, 12 Feb 2026 20:44:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929086217",
+    "customerId": "user4",
+    "items": [
+        {
+            "itemId": "1770929070071",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "pending",
+    "createdAt": 1770929086217,
+    "paid": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.032">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 6038
+ETag: W/"1796-PgvL/tCM0fBQUKoFf0C8od3dtTE"
+Date: Thu, 12 Feb 2026 20:44:48 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770491967932",
+        "customerId": "123",
+        "items": [
+            {
+                "itemId": "1770491941869",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770491967932,
+        "paid": false
+    },
+    {
+        "id": "1770492532962",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770492532746",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770492532962,
+        "paid": false
+    },
+    {
+        "id": "1770493418438",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770493418213",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770493418438,
+        "paid": false
+    },
+    {
+        "id": "1770658638539",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658634408",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658638539,
+        "paid": false
+    },
+    {
+        "id": "1770658833639",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658829483",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658833639,
+        "paid": false
+    },
+    {
+        "id": "1770658952851",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658948679",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658952851,
+        "paid": false
+    },
+    {
+        "id": "1770659104510",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659100392",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659104510,
+        "paid": false
+    },
+    {
+        "id": "1770659216440",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659212279",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659216440,
+        "paid": false
+    },
+    {
+        "id": "1770659454278",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659450138",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659454278,
+        "paid": false
+    },
+    {
+        "id": "1770661221274",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661217057",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661221274,
+        "paid": false
+    },
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770661367287",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661363025",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661367287,
+        "paid": false
+    },
+    {
+        "id": "1770661618789",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661614673",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661618789,
+        "paid": false
+    },
+    {
+        "id": "1770672301485",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672285257",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672301485,
+        "paid": false
+    },
+    {
+        "id": "1770672476729",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672468594",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672476729,
+        "paid": false
+    },
+    {
+        "id": "1770674408752",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674386402",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674408752,
+        "paid": false
+    },
+    {
+        "id": "1770674412832",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674392521",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674412832,
+        "paid": false
+    },
+    {
+        "id": "1770674416896",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674398586",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674416896,
+        "paid": false
+    },
+    {
+        "id": "1770675128044",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675105731",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675128044,
+        "paid": false
+    },
+    {
+        "id": "1770675552409",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675548292",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675552409,
+        "paid": false
+    },
+    {
+        "id": "1770675568651",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675564578",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675568651,
+        "paid": false
+    },
+    {
+        "id": "1770675841003",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675836883",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675841003,
+        "paid": false
+    },
+    {
+        "id": "1770675858260",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675854196",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675858260,
+        "paid": false
+    },
+    {
+        "id": "1770675875682",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675871544",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675875682,
+        "paid": false
+    },
+    {
+        "id": "1770716719774",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770716715672",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770716719774,
+        "paid": false
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929074103",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770929051932",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929074103,
+        "paid": false
+    },
+    {
+        "id": "1770929078142",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770929057983",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929078142,
+        "paid": false
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929082180,
+        "paid": false
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929086217,
+        "paid": false
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.032">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 6034
+ETag: W/"1792-xXv51maZF2bcXKvj8szMq8jEeXI"
+Date: Thu, 12 Feb 2026 20:44:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770491967932",
+        "customerId": "123",
+        "items": [
+            {
+                "itemId": "1770491941869",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770491967932,
+        "paid": false
+    },
+    {
+        "id": "1770492532962",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770492532746",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770492532962,
+        "paid": false
+    },
+    {
+        "id": "1770493418438",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770493418213",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770493418438,
+        "paid": false
+    },
+    {
+        "id": "1770658638539",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658634408",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658638539,
+        "paid": false
+    },
+    {
+        "id": "1770658833639",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658829483",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658833639,
+        "paid": false
+    },
+    {
+        "id": "1770658952851",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658948679",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658952851,
+        "paid": false
+    },
+    {
+        "id": "1770659104510",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659100392",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659104510,
+        "paid": false
+    },
+    {
+        "id": "1770659216440",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659212279",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659216440,
+        "paid": false
+    },
+    {
+        "id": "1770659454278",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659450138",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659454278,
+        "paid": false
+    },
+    {
+        "id": "1770661221274",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661217057",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661221274,
+        "paid": false
+    },
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770661367287",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661363025",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661367287,
+        "paid": false
+    },
+    {
+        "id": "1770661618789",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661614673",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661618789,
+        "paid": false
+    },
+    {
+        "id": "1770672301485",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672285257",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672301485,
+        "paid": false
+    },
+    {
+        "id": "1770672476729",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672468594",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672476729,
+        "paid": false
+    },
+    {
+        "id": "1770674408752",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674386402",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674408752,
+        "paid": false
+    },
+    {
+        "id": "1770674412832",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674392521",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674412832,
+        "paid": false
+    },
+    {
+        "id": "1770674416896",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674398586",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674416896,
+        "paid": false
+    },
+    {
+        "id": "1770675128044",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675105731",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675128044,
+        "paid": false
+    },
+    {
+        "id": "1770675552409",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675548292",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675552409,
+        "paid": false
+    },
+    {
+        "id": "1770675568651",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675564578",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675568651,
+        "paid": false
+    },
+    {
+        "id": "1770675841003",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675836883",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675841003,
+        "paid": false
+    },
+    {
+        "id": "1770675858260",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675854196",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675858260,
+        "paid": false
+    },
+    {
+        "id": "1770675875682",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675871544",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675875682,
+        "paid": false
+    },
+    {
+        "id": "1770716719774",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770716715672",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770716719774,
+        "paid": false
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929074103",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770929051932",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929074103,
+        "paid": true
+    },
+    {
+        "id": "1770929078142",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770929057983",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929078142,
+        "paid": false
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929082180,
+        "paid": false
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929086217,
+        "paid": false
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.032">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 6030
+ETag: W/"178e-4er3hSCvwqsG0eRzsna+V4ZXz7Y"
+Date: Thu, 12 Feb 2026 20:45:06 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770491967932",
+        "customerId": "123",
+        "items": [
+            {
+                "itemId": "1770491941869",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770491967932,
+        "paid": false
+    },
+    {
+        "id": "1770492532962",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770492532746",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770492532962,
+        "paid": false
+    },
+    {
+        "id": "1770493418438",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770493418213",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770493418438,
+        "paid": false
+    },
+    {
+        "id": "1770658638539",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658634408",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658638539,
+        "paid": false
+    },
+    {
+        "id": "1770658833639",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658829483",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658833639,
+        "paid": false
+    },
+    {
+        "id": "1770658952851",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658948679",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658952851,
+        "paid": false
+    },
+    {
+        "id": "1770659104510",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659100392",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659104510,
+        "paid": false
+    },
+    {
+        "id": "1770659216440",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659212279",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659216440,
+        "paid": false
+    },
+    {
+        "id": "1770659454278",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659450138",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659454278,
+        "paid": false
+    },
+    {
+        "id": "1770661221274",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661217057",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661221274,
+        "paid": false
+    },
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770661367287",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661363025",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661367287,
+        "paid": false
+    },
+    {
+        "id": "1770661618789",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661614673",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661618789,
+        "paid": false
+    },
+    {
+        "id": "1770672301485",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672285257",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672301485,
+        "paid": false
+    },
+    {
+        "id": "1770672476729",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672468594",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672476729,
+        "paid": false
+    },
+    {
+        "id": "1770674408752",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674386402",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674408752,
+        "paid": false
+    },
+    {
+        "id": "1770674412832",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674392521",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674412832,
+        "paid": false
+    },
+    {
+        "id": "1770674416896",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674398586",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674416896,
+        "paid": false
+    },
+    {
+        "id": "1770675128044",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675105731",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675128044,
+        "paid": false
+    },
+    {
+        "id": "1770675552409",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675548292",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675552409,
+        "paid": false
+    },
+    {
+        "id": "1770675568651",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675564578",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675568651,
+        "paid": false
+    },
+    {
+        "id": "1770675841003",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675836883",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675841003,
+        "paid": false
+    },
+    {
+        "id": "1770675858260",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675854196",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675858260,
+        "paid": false
+    },
+    {
+        "id": "1770675875682",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675871544",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675875682,
+        "paid": false
+    },
+    {
+        "id": "1770716719774",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770716715672",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770716719774,
+        "paid": false
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929074103",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770929051932",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929074103,
+        "paid": true
+    },
+    {
+        "id": "1770929078142",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770929057983",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929078142,
+        "paid": true
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929082180,
+        "paid": false
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929086217,
+        "paid": false
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.134">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 6026
+ETag: W/"178a-aSe/lC4s56UfK8JBSAjyYtgPdLg"
+Date: Thu, 12 Feb 2026 20:45:15 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770491967932",
+        "customerId": "123",
+        "items": [
+            {
+                "itemId": "1770491941869",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770491967932,
+        "paid": false
+    },
+    {
+        "id": "1770492532962",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770492532746",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770492532962,
+        "paid": false
+    },
+    {
+        "id": "1770493418438",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770493418213",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770493418438,
+        "paid": false
+    },
+    {
+        "id": "1770658638539",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658634408",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658638539,
+        "paid": false
+    },
+    {
+        "id": "1770658833639",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658829483",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658833639,
+        "paid": false
+    },
+    {
+        "id": "1770658952851",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658948679",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658952851,
+        "paid": false
+    },
+    {
+        "id": "1770659104510",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659100392",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659104510,
+        "paid": false
+    },
+    {
+        "id": "1770659216440",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659212279",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659216440,
+        "paid": false
+    },
+    {
+        "id": "1770659454278",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659450138",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659454278,
+        "paid": false
+    },
+    {
+        "id": "1770661221274",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661217057",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661221274,
+        "paid": false
+    },
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770661367287",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661363025",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661367287,
+        "paid": false
+    },
+    {
+        "id": "1770661618789",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661614673",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661618789,
+        "paid": false
+    },
+    {
+        "id": "1770672301485",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672285257",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672301485,
+        "paid": false
+    },
+    {
+        "id": "1770672476729",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672468594",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672476729,
+        "paid": false
+    },
+    {
+        "id": "1770674408752",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674386402",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674408752,
+        "paid": false
+    },
+    {
+        "id": "1770674412832",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674392521",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674412832,
+        "paid": false
+    },
+    {
+        "id": "1770674416896",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674398586",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674416896,
+        "paid": false
+    },
+    {
+        "id": "1770675128044",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675105731",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675128044,
+        "paid": false
+    },
+    {
+        "id": "1770675552409",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675548292",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675552409,
+        "paid": false
+    },
+    {
+        "id": "1770675568651",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675564578",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675568651,
+        "paid": false
+    },
+    {
+        "id": "1770675841003",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675836883",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675841003,
+        "paid": false
+    },
+    {
+        "id": "1770675858260",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675854196",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675858260,
+        "paid": false
+    },
+    {
+        "id": "1770675875682",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675871544",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675875682,
+        "paid": false
+    },
+    {
+        "id": "1770716719774",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770716715672",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770716719774,
+        "paid": false
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929074103",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770929051932",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929074103,
+        "paid": true
+    },
+    {
+        "id": "1770929078142",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770929057983",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929078142,
+        "paid": true
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929082180,
+        "paid": true
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770929086217,
+        "paid": false
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.015">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3242
+ETag: W/"caa-xA7ANUxJl7Rpk1pTaBL/ojQgGmw"
+Date: Thu, 12 Feb 2026 20:44:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770658634408",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658829483",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658948679",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659100392",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659212279",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659450138",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661178562",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661217057",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661306352",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661363025",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661393142",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661614673",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770662223773",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770672285257",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770672468594",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674386402",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674392521",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674398586",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675105731",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675111830",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675117894",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675123961",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675548292",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675564578",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675836883",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675854196",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675871544",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770716715672",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770884751463",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770929051932",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929057983",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929064026",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929070071",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.01">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3242
+ETag: W/"caa-xA7ANUxJl7Rpk1pTaBL/ojQgGmw"
+Date: Thu, 12 Feb 2026 20:44:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770658634408",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658829483",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658948679",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659100392",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659212279",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659450138",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661178562",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661217057",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661306352",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661363025",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661393142",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661614673",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770662223773",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770672285257",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770672468594",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674386402",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674392521",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674398586",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675105731",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675111830",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675117894",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675123961",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675548292",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675564578",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675836883",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675854196",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675871544",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770716715672",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770884751463",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770929051932",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929057983",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929064026",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929070071",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.009">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3242
+ETag: W/"caa-xA7ANUxJl7Rpk1pTaBL/ojQgGmw"
+Date: Thu, 12 Feb 2026 20:45:08 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770658634408",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658829483",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658948679",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659100392",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659212279",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659450138",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661178562",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661217057",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661306352",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661363025",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661393142",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661614673",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770662223773",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770672285257",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770672468594",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674386402",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674392521",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674398586",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675105731",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675111830",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675117894",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675123961",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675548292",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675564578",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675836883",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675854196",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675871544",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770716715672",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770884751463",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770929051932",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929057983",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929064026",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929070071",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getItemsTest" classname="org.example.tests_scripts.ValidTests" time="2.016">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 3242
+ETag: W/"caa-xA7ANUxJl7Rpk1pTaBL/ojQgGmw"
+Date: Thu, 12 Feb 2026 20:45:17 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770658634408",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658829483",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770658948679",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659100392",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659212279",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770659450138",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661178562",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661217057",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661306352",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661363025",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770661393142",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770661614673",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770662223773",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770672285257",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770672468594",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674386402",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674392521",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770674398586",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675105731",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675111830",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675117894",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675123961",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770675548292",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675564578",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675836883",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675854196",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770675871544",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770716715672",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770884751463",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 10
+    },
+    {
+        "id": "1770929051932",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929057983",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929064026",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    },
+    {
+        "id": "1770929070071",
+        "name": "phone",
+        "description": "This is a new phone",
+        "price": 10000,
+        "stock": 9
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="checkOutOrderTest" classname="org.example.tests_scripts.ValidTests" time="3.013">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 190
+ETag: W/"be-lNfBLmSWHrr1US8wgJMZUftTrlI"
+Date: Thu, 12 Feb 2026 20:44:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929074103",
+    "customerId": "user3",
+    "items": [
+        {
+            "itemId": "1770929051932",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "paid",
+    "createdAt": 1770929074103,
+    "paid": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="checkOutOrderTest" classname="org.example.tests_scripts.ValidTests" time="3.013">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 190
+ETag: W/"be-sf48JC+NWIYsJQiHoNJnGEdcRfE"
+Date: Thu, 12 Feb 2026 20:45:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929078142",
+    "customerId": "user1",
+    "items": [
+        {
+            "itemId": "1770929057983",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "paid",
+    "createdAt": 1770929078142,
+    "paid": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="checkOutOrderTest" classname="org.example.tests_scripts.ValidTests" time="3.01">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 190
+ETag: W/"be-j5BoFJRtH+YGKJIqU5VA5Im27Rg"
+Date: Thu, 12 Feb 2026 20:45:11 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929082180",
+    "customerId": "user2",
+    "items": [
+        {
+            "itemId": "1770929064026",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "paid",
+    "createdAt": 1770929082180,
+    "paid": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="checkOutOrderTest" classname="org.example.tests_scripts.ValidTests" time="3.015">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 190
+ETag: W/"be-etwfiptgUZwQ0HtX4y260ykTKE4"
+Date: Thu, 12 Feb 2026 20:45:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": "1770929086217",
+    "customerId": "user4",
+    "items": [
+        {
+            "itemId": "1770929070071",
+            "name": "phone",
+            "price": 10000,
+            "quantity": 1
+        }
+    ],
+    "total": 10000,
+    "status": "paid",
+    "createdAt": 1770929086217,
+    "paid": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.018">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 383
+ETag: W/"17f-dF2Fcs5a8xyh8LVjUGjlAOsibTk"
+Date: Thu, 12 Feb 2026 20:44:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770929074103",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770929051932",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929074103,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.029">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 578
+ETag: W/"242-hfwQSPfY12zZUVfolZaD0RWxEKI"
+Date: Thu, 12 Feb 2026 20:45:04 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770716719774",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770716715672",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770716719774,
+        "paid": false
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929078142",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770929057983",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929078142,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.02">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 4677
+ETag: W/"1245-yZePuwKb/KsOMNFAg2yRCXsA9wI"
+Date: Thu, 12 Feb 2026 20:45:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770492532962",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770492532746",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770492532962,
+        "paid": false
+    },
+    {
+        "id": "1770493418438",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770493418213",
+                "name": "phone",
+                "price": 100000,
+                "quantity": 1
+            }
+        ],
+        "total": 100000,
+        "status": "pending",
+        "createdAt": 1770493418438,
+        "paid": false
+    },
+    {
+        "id": "1770658638539",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658634408",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658638539,
+        "paid": false
+    },
+    {
+        "id": "1770658833639",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658829483",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658833639,
+        "paid": false
+    },
+    {
+        "id": "1770658952851",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770658948679",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770658952851,
+        "paid": false
+    },
+    {
+        "id": "1770659104510",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659100392",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659104510,
+        "paid": false
+    },
+    {
+        "id": "1770659216440",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659212279",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659216440,
+        "paid": false
+    },
+    {
+        "id": "1770659454278",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770659450138",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770659454278,
+        "paid": false
+    },
+    {
+        "id": "1770661221274",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661217057",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661221274,
+        "paid": false
+    },
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770661367287",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661363025",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661367287,
+        "paid": false
+    },
+    {
+        "id": "1770661618789",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661614673",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770661618789,
+        "paid": false
+    },
+    {
+        "id": "1770672301485",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672285257",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672301485,
+        "paid": false
+    },
+    {
+        "id": "1770672476729",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770672468594",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770672476729,
+        "paid": false
+    },
+    {
+        "id": "1770674408752",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674386402",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674408752,
+        "paid": false
+    },
+    {
+        "id": "1770674412832",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674392521",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674412832,
+        "paid": false
+    },
+    {
+        "id": "1770674416896",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770674398586",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770674416896,
+        "paid": false
+    },
+    {
+        "id": "1770675128044",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675105731",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675128044,
+        "paid": false
+    },
+    {
+        "id": "1770675552409",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675548292",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675552409,
+        "paid": false
+    },
+    {
+        "id": "1770675568651",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675564578",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675568651,
+        "paid": false
+    },
+    {
+        "id": "1770675841003",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675836883",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675841003,
+        "paid": false
+    },
+    {
+        "id": "1770675858260",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675854196",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675858260,
+        "paid": false
+    },
+    {
+        "id": "1770675875682",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770675871544",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "pending",
+        "createdAt": 1770675875682,
+        "paid": false
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929082180,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getOrderTest" classname="org.example.tests_scripts.ValidTests" time="2.034">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 192
+ETag: W/"c0-XRVJTkXoi/3EMRIJ2oQd45Zn8xQ"
+Date: Thu, 12 Feb 2026 20:45:22 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929086217,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getPaidOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.031">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 1338
+ETag: W/"53a-7+cCUpni/OMB5Htr6ZMAaMnJZn4"
+Date: Thu, 12 Feb 2026 20:45:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929074103",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770929051932",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929074103,
+        "paid": true
+    },
+    {
+        "id": "1770929078142",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770929057983",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929078142,
+        "paid": true
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929082180,
+        "paid": true
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929086217,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getPaidOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.023">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 1147
+ETag: W/"47b-FgILCgGU6o7AnAK9S/jp7xbwQ+w"
+Date: Thu, 12 Feb 2026 20:45:30 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929078142",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770929057983",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929078142,
+        "paid": true
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929082180,
+        "paid": true
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929086217,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getPaidOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.034">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 956
+ETag: W/"3bc-oZFTSfra1Rrptp1peve4/hQeVWw"
+Date: Thu, 12 Feb 2026 20:45:36 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929082180",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770929064026",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929082180,
+        "paid": true
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929086217,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getPaidOrdersTest" classname="org.example.tests_scripts.ValidTests" time="2.028">
+    <system-out><![CDATA[Test End
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 765
+ETag: W/"2fd-a1GNQTvjgIQdDtYxQJEll5Z1nXY"
+Date: Thu, 12 Feb 2026 20:45:42 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[
+    {
+        "id": "1770661310555",
+        "customerId": "user2",
+        "items": [
+            {
+                "itemId": "1770661306352",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770661310555,
+        "paid": true
+    },
+    {
+        "id": "1770918220429",
+        "customerId": "user3",
+        "items": [
+            {
+                "itemId": "1770918216339",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918220429,
+        "paid": true
+    },
+    {
+        "id": "1770918478139",
+        "customerId": "user1",
+        "items": [
+            {
+                "itemId": "1770918468017",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770918478139,
+        "paid": true
+    },
+    {
+        "id": "1770929086217",
+        "customerId": "user4",
+        "items": [
+            {
+                "itemId": "1770929070071",
+                "name": "phone",
+                "price": 10000,
+                "quantity": 1
+            }
+        ],
+        "total": 10000,
+        "status": "paid",
+        "createdAt": 1770929086217,
+        "paid": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="deleteOrderTest" classname="org.example.tests_scripts.ValidTests" time="1.017">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:25 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="deleteOrderTest" classname="org.example.tests_scripts.ValidTests" time="1.016">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:31 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="deleteOrderTest" classname="org.example.tests_scripts.ValidTests" time="1.03">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="deleteOrderTest" classname="org.example.tests_scripts.ValidTests" time="1.016">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="deleteItemTest" classname="org.example.tests_scripts.ValidTests" time="3.015">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:28 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="deleteItemTest" classname="org.example.tests_scripts.ValidTests" time="3.008">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:34 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="deleteItemTest" classname="org.example.tests_scripts.ValidTests" time="3.007">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:40 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+  <testcase name="deleteItemTest" classname="org.example.tests_scripts.ValidTests" time="3.012">
+    <system-out><![CDATA[Test End
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Date: Thu, 12 Feb 2026 20:45:46 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+]]></system-out>
+  </testcase>
+</testsuite>

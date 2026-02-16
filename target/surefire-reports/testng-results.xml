@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="55" passed="55" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-12T22:44:05 EET" name="Flow Tests Suite" finished-at="2026-02-12T22:45:46 EET" duration-ms="101854">
+    <groups>
+    </groups>
+    <test started-at="2026-02-12T22:44:05 EET" name="Invalid Tests" finished-at="2026-02-12T22:44:29 EET" duration-ms="24564">
+      <class name="org.example.tests_scripts.InvalidTests">
+        <test-method signature="DeleteNotFoundItem()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:05 EET" name="DeleteNotFoundItem" finished-at="2026-02-12T22:44:09 EET" duration-ms="4325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNotFoundItem -->
+        <test-method signature="EditItemCustomer()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:05 EET" name="EditItemCustomer" finished-at="2026-02-12T22:44:09 EET" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditItemCustomer -->
+        <test-method signature="EditNotFoundItem()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:09 EET" name="EditNotFoundItem" finished-at="2026-02-12T22:44:13 EET" duration-ms="4040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditNotFoundItem -->
+        <test-method signature="EditItemWithNegativePrice()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:09 EET" name="EditItemWithNegativePrice" finished-at="2026-02-12T22:44:13 EET" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditItemWithNegativePrice -->
+        <test-method signature="LoginWithEmptyUserName()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:13 EET" name="LoginWithEmptyUserName" finished-at="2026-02-12T22:44:15 EET" duration-ms="2025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyUserName -->
+        <test-method signature="LoginWithInvalidPassword()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:13 EET" name="LoginWithInvalidPassword" finished-at="2026-02-12T22:44:15 EET" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidPassword -->
+        <test-method signature="LoginWithMissingUserName()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:15 EET" name="LoginWithMissingUserName" finished-at="2026-02-12T22:44:17 EET" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithMissingUserName -->
+        <test-method signature="createItemCustomer()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:15 EET" name="createItemCustomer" finished-at="2026-02-12T22:44:19 EET" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createItemCustomer -->
+        <test-method signature="createItemWithMissingName()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:17 EET" name="createItemWithMissingName" finished-at="2026-02-12T22:44:21 EET" duration-ms="4031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createItemWithMissingName -->
+        <test-method signature="createItemWithNegativePrice()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:19 EET" name="createItemWithNegativePrice" finished-at="2026-02-12T22:44:23 EET" duration-ms="4030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createItemWithNegativePrice -->
+        <test-method signature="createOrderWithoutCustomerId()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:21 EET" name="createOrderWithoutCustomerId" finished-at="2026-02-12T22:44:25 EET" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderWithoutCustomerId -->
+        <test-method signature="deleteItemCustomer()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:23 EET" name="deleteItemCustomer" finished-at="2026-02-12T22:44:27 EET" duration-ms="4025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemCustomer -->
+        <test-method signature="getItemsUnAuthorized()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:25 EET" name="getItemsUnAuthorized" finished-at="2026-02-12T22:44:27 EET" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsUnAuthorized -->
+        <test-method signature="invalidCredentialsTest()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:27 EET" name="invalidCredentialsTest" finished-at="2026-02-12T22:44:29 EET" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsTest -->
+        <test-method signature="specialChUserNameTest()[pri:0, instance:org.example.tests_scripts.InvalidTests@4d6025c5]" started-at="2026-02-12T22:44:27 EET" name="specialChUserNameTest" finished-at="2026-02-12T22:44:29 EET" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialChUserNameTest -->
+      </class> <!-- org.example.tests_scripts.InvalidTests -->
+    </test> <!-- Invalid Tests -->
+    <test started-at="2026-02-12T22:44:05 EET" name="Valid Tests" finished-at="2026-02-12T22:45:46 EET" duration-ms="101854">
+      <class name="org.example.tests_scripts.ValidTests">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:05 EET" name="Login" finished-at="2026-02-12T22:44:09 EET" duration-ms="4816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:09 EET" name="addItemsTest" finished-at="2026-02-12T22:44:11 EET" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:11 EET" name="tearDown" finished-at="2026-02-12T22:44:11 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:44:11 EET" name="Login" finished-at="2026-02-12T22:44:15 EET" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:44:15 EET" name="addItemsTest" finished-at="2026-02-12T22:44:17 EET" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:17 EET" name="tearDown" finished-at="2026-02-12T22:44:17 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:44:17 EET" name="Login" finished-at="2026-02-12T22:44:22 EET" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:44:22 EET" name="addItemsTest" finished-at="2026-02-12T22:44:24 EET" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:24 EET" name="tearDown" finished-at="2026-02-12T22:44:24 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:24 EET" name="Login" finished-at="2026-02-12T22:44:28 EET" duration-ms="4030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="addItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:28 EET" name="addItemsTest" finished-at="2026-02-12T22:44:30 EET" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:30 EET" name="tearDown" finished-at="2026-02-12T22:44:30 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="editItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:30 EET" name="editItemsTest" finished-at="2026-02-12T22:44:32 EET" depends-on-methods="org.example.tests_scripts.ValidTests.addItemsTest" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:32 EET" name="tearDown" finished-at="2026-02-12T22:44:32 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:32 EET" name="createOrderTest" finished-at="2026-02-12T22:44:34 EET" depends-on-methods="org.example.tests_scripts.ValidTests.editItemsTest" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:34 EET" name="tearDown" finished-at="2026-02-12T22:44:34 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="editItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:44:34 EET" name="editItemsTest" finished-at="2026-02-12T22:44:36 EET" depends-on-methods="org.example.tests_scripts.ValidTests.addItemsTest" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:36 EET" name="tearDown" finished-at="2026-02-12T22:44:36 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:44:36 EET" name="createOrderTest" finished-at="2026-02-12T22:44:38 EET" depends-on-methods="org.example.tests_scripts.ValidTests.editItemsTest" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:38 EET" name="tearDown" finished-at="2026-02-12T22:44:38 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="editItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:44:38 EET" name="editItemsTest" finished-at="2026-02-12T22:44:40 EET" depends-on-methods="org.example.tests_scripts.ValidTests.addItemsTest" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:40 EET" name="tearDown" finished-at="2026-02-12T22:44:40 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:44:40 EET" name="createOrderTest" finished-at="2026-02-12T22:44:42 EET" depends-on-methods="org.example.tests_scripts.ValidTests.editItemsTest" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:42 EET" name="tearDown" finished-at="2026-02-12T22:44:42 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="editItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:42 EET" name="editItemsTest" finished-at="2026-02-12T22:44:44 EET" depends-on-methods="org.example.tests_scripts.ValidTests.addItemsTest" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:44 EET" name="tearDown" finished-at="2026-02-12T22:44:44 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:44 EET" name="createOrderTest" finished-at="2026-02-12T22:44:46 EET" depends-on-methods="org.example.tests_scripts.ValidTests.editItemsTest" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:46 EET" name="tearDown" finished-at="2026-02-12T22:44:46 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:46 EET" name="getOrdersTest" finished-at="2026-02-12T22:44:48 EET" depends-on-methods="org.example.tests_scripts.ValidTests.createOrderTest" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:48 EET" name="tearDown" finished-at="2026-02-12T22:44:48 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:48 EET" name="getItemsTest" finished-at="2026-02-12T22:44:50 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrdersTest" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:50 EET" name="tearDown" finished-at="2026-02-12T22:44:50 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkOutOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:50 EET" name="checkOutOrderTest" finished-at="2026-02-12T22:44:53 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getItemsTest" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:53 EET" name="tearDown" finished-at="2026-02-12T22:44:53 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:44:53 EET" name="getOrderTest" finished-at="2026-02-12T22:44:55 EET" depends-on-methods="org.example.tests_scripts.ValidTests.checkOutOrderTest" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:55 EET" name="tearDown" finished-at="2026-02-12T22:44:55 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:44:55 EET" name="getOrdersTest" finished-at="2026-02-12T22:44:57 EET" depends-on-methods="org.example.tests_scripts.ValidTests.createOrderTest" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:57 EET" name="tearDown" finished-at="2026-02-12T22:44:57 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:44:57 EET" name="getItemsTest" finished-at="2026-02-12T22:44:59 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrdersTest" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:44:59 EET" name="tearDown" finished-at="2026-02-12T22:44:59 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkOutOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:44:59 EET" name="checkOutOrderTest" finished-at="2026-02-12T22:45:02 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getItemsTest" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:02 EET" name="tearDown" finished-at="2026-02-12T22:45:02 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:45:02 EET" name="getOrderTest" finished-at="2026-02-12T22:45:04 EET" depends-on-methods="org.example.tests_scripts.ValidTests.checkOutOrderTest" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:04 EET" name="tearDown" finished-at="2026-02-12T22:45:04 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:45:04 EET" name="getOrdersTest" finished-at="2026-02-12T22:45:06 EET" depends-on-methods="org.example.tests_scripts.ValidTests.createOrderTest" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:06 EET" name="tearDown" finished-at="2026-02-12T22:45:06 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:45:06 EET" name="getItemsTest" finished-at="2026-02-12T22:45:08 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrdersTest" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:08 EET" name="tearDown" finished-at="2026-02-12T22:45:08 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkOutOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:45:08 EET" name="checkOutOrderTest" finished-at="2026-02-12T22:45:11 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getItemsTest" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:11 EET" name="tearDown" finished-at="2026-02-12T22:45:11 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:45:11 EET" name="getOrderTest" finished-at="2026-02-12T22:45:13 EET" depends-on-methods="org.example.tests_scripts.ValidTests.checkOutOrderTest" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:13 EET" name="tearDown" finished-at="2026-02-12T22:45:13 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:13 EET" name="getOrdersTest" finished-at="2026-02-12T22:45:15 EET" depends-on-methods="org.example.tests_scripts.ValidTests.createOrderTest" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:15 EET" name="tearDown" finished-at="2026-02-12T22:45:15 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getItemsTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:15 EET" name="getItemsTest" finished-at="2026-02-12T22:45:17 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrdersTest" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:17 EET" name="tearDown" finished-at="2026-02-12T22:45:17 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkOutOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:17 EET" name="checkOutOrderTest" finished-at="2026-02-12T22:45:20 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getItemsTest" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:20 EET" name="tearDown" finished-at="2026-02-12T22:45:20 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:20 EET" name="getOrderTest" finished-at="2026-02-12T22:45:22 EET" depends-on-methods="org.example.tests_scripts.ValidTests.checkOutOrderTest" duration-ms="2037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:22 EET" name="tearDown" finished-at="2026-02-12T22:45:22 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getPaidOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:45:22 EET" name="getPaidOrdersTest" finished-at="2026-02-12T22:45:24 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrderTest" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPaidOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:24 EET" name="tearDown" finished-at="2026-02-12T22:45:24 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:45:24 EET" name="deleteOrderTest" finished-at="2026-02-12T22:45:25 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getPaidOrdersTest" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:25 EET" name="tearDown" finished-at="2026-02-12T22:45:25 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteItemTest()[pri:0, instance:org.example.tests_scripts.ValidTests@2f01783a, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@471a9022]]" started-at="2026-02-12T22:45:25 EET" name="deleteItemTest" finished-at="2026-02-12T22:45:28 EET" depends-on-methods="org.example.tests_scripts.ValidTests.deleteOrderTest" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:28 EET" name="tearDown" finished-at="2026-02-12T22:45:28 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getPaidOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:45:28 EET" name="getPaidOrdersTest" finished-at="2026-02-12T22:45:30 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrderTest" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPaidOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:30 EET" name="tearDown" finished-at="2026-02-12T22:45:30 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:45:30 EET" name="deleteOrderTest" finished-at="2026-02-12T22:45:31 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getPaidOrdersTest" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:31 EET" name="tearDown" finished-at="2026-02-12T22:45:31 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteItemTest()[pri:0, instance:org.example.tests_scripts.ValidTests@5f9edf14, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2462cb01]]" started-at="2026-02-12T22:45:31 EET" name="deleteItemTest" finished-at="2026-02-12T22:45:34 EET" depends-on-methods="org.example.tests_scripts.ValidTests.deleteOrderTest" duration-ms="3008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:34 EET" name="tearDown" finished-at="2026-02-12T22:45:34 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getPaidOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:45:34 EET" name="getPaidOrdersTest" finished-at="2026-02-12T22:45:36 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrderTest" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPaidOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:36 EET" name="tearDown" finished-at="2026-02-12T22:45:36 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:45:36 EET" name="deleteOrderTest" finished-at="2026-02-12T22:45:37 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getPaidOrdersTest" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:37 EET" name="tearDown" finished-at="2026-02-12T22:45:37 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteItemTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68746f22, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@e25951c]]" started-at="2026-02-12T22:45:37 EET" name="deleteItemTest" finished-at="2026-02-12T22:45:40 EET" depends-on-methods="org.example.tests_scripts.ValidTests.deleteOrderTest" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:40 EET" name="tearDown" finished-at="2026-02-12T22:45:40 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getPaidOrdersTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:40 EET" name="getPaidOrdersTest" finished-at="2026-02-12T22:45:42 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getOrderTest" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPaidOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:42 EET" name="tearDown" finished-at="2026-02-12T22:45:42 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteOrderTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:42 EET" name="deleteOrderTest" finished-at="2026-02-12T22:45:43 EET" depends-on-methods="org.example.tests_scripts.ValidTests.getPaidOrdersTest" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:43 EET" name="tearDown" finished-at="2026-02-12T22:45:43 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteItemTest()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:43 EET" name="deleteItemTest" finished-at="2026-02-12T22:45:46 EET" depends-on-methods="org.example.tests_scripts.ValidTests.deleteOrderTest" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests_scripts.ValidTests@68878f6d, instance params:[org.example.pojos_bodies.request.UserData@1b410b60, org.example.pojos_bodies.request.UserData@2f666ebb]]" started-at="2026-02-12T22:45:46 EET" name="tearDown" finished-at="2026-02-12T22:45:46 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.tests_scripts.ValidTests -->
+    </test> <!-- Valid Tests -->
+  </suite> <!-- Flow Tests Suite -->
+</testng-results>
