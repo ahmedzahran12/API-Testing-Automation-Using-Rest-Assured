@@ -112,12 +112,46 @@ The framework implements a secure and efficient token management strategy:
 
 ## 🔍 Code Walkthrough & Sample Test Cases
 
-### 1. Data-Driven End-to-End Testing
+### 1. Configuration Management
+
+The `ConfigManager` utility class loads properties from `config.properties`, making environment-specific values easily accessible and centralized. `BaseApi` then uses these properties to build the base request specification.
+
+```java
+// In utils/ConfigManager.java
+public class ConfigManager {
+    private static final Properties properties = new Properties();
+
+    static { // Static block to load properties once
+        try (InputStream input = ConfigManager.class.getClassLoader().getResourceAsStream("config.properties")) {
+            properties.load(input);
+        } catch (IOException ex) {
+            ex.printStackTrace(); // Handle exception
+        }
+    }
+
+    public static String getProperty(String key) {
+        return properties.getProperty(key);
+    }
+}
+
+// In specs_variables/BaseApi.java
+public class BaseApi {
+    public static RequestSpecification getRequestSpecification() {
+        return new RequestSpecBuilder()
+                // Dynamically sets the base URI from config.properties
+                .setBaseUri(ConfigManager.getProperty("base.url")) 
+                .setContentType(ContentType.JSON)
+                .build();
+    }
+}
+```
+
+### 2. Data-Driven End-to-End Testing
 
 This snippet shows how the `FlowTestFactory` uses TestNG's `@Factory` to create a new `ValidTests` instance for each customer in `users.json`. This allows the entire end-to-end flow to run for multiple users.
 
 ```java
-// In FlowTestFactory.java
+// In tests_scripts/FlowTestFactory.java
 @Factory(dataProvider = "userDataProvider")
 public Object[] createInstances(UserData admin, UserData customer) {
     // Creates a new instance of the ValidTests class, passing the admin and customer data.
@@ -125,7 +159,7 @@ public Object[] createInstances(UserData admin, UserData customer) {
     return new Object[]{new ValidTests(admin, customer)};
 }
 
-// In ValidTests.java
+// In tests_scripts/ValidTests.java
 public class ValidTests {
     private UserData adminData;
     private UserData customerData;
@@ -145,44 +179,62 @@ public class ValidTests {
 }
 ```
 
-### 2. API Abstraction Layer
+### 3. API Abstraction Layer with POJO Usage
 
-This snippet from `ItemManager.java` demonstrates how API calls are encapsulated. The test scripts don't need to know about URLs, headers, or HTTP methods. They just call a clean Java method.
+This snippet from `ItemManager.java` demonstrates how API calls are encapsulated using POJOs for both request bodies and response deserialization. The test scripts don't need to know about URLs, headers, or HTTP methods. They just call a clean Java method.
 
 ```java
-// In ItemManager.java
+// In apis_admin/ItemManager.java
 public class ItemManager {
     private static final String ITEM_ENDPOINT="/items";
 
     public Response addItem(String token, AddItemPojo body) {
         return given()
-                // Reuses the base specification (Base URL, Content-Type)
                 .spec(BaseApi.getRequestSpecification()) 
                 .header("Authorization", "Bearer " + token)
-                .body(body)
+                .body(body) // AddItemPojo is serialized to JSON here
             .when()
                 .post(ITEM_ENDPOINT);
     }
 }
 
-// In a test script
+// In tests_scripts/ValidTests.java (example usage)
 @Test
 public void addItemsTest() {
-    // ... setup ...
+    AddItemPojo addItems = new AddItemPojo();
+    addItems.setName("phone");
+    // ... set other properties ...
+
     ItemManager itemManager = new ItemManager();
-    // The test calls a simple Java method, making it clean and readable
-    itemManager.addItem(adminToken, addItems) 
+    ItemResponse itemResponse = itemManager.addItem(adminToken, addItems) 
         .then()
-        .statusCode(201);
+            .statusCode(201)
+            .log().all()
+            // ItemResponse POJO is deserialized from JSON response here
+            .extract().response().as(ItemResponse.class); 
+    id = itemResponse.getId();
 }
 ```
 
-### 3. Negative Testing with Data Generation
+### 4. Negative Testing with Test Data Generation
 
-This snippet from `InvalidTests.java` shows how to test for error conditions. It uses `CredentialsGenerator` (which uses JavaFaker) to create invalid data and asserts that the API returns the expected error message.
+This snippet from `InvalidTests.java` shows how to test for error conditions using dynamically generated invalid data from `CredentialsGenerator` (which leverages JavaFaker) and asserts against predefined error messages.
 
 ```java
-// In InvalidTests.java
+// In utils/CredentialsGenerator.java (example using Faker)
+import com.github.javafaker.Faker;
+public class CredentialsGenerator {
+    private static final Faker faker = new Faker();
+    public static String generateRandomUsername() {
+        return faker.name().username();
+    }
+    public static String generateSpecialChUserName() {
+        return faker.name().firstName() + "!@#"; // Example of invalid data
+    }
+    // ... other generator methods ...
+}
+
+// In tests_scripts/InvalidTests.java
 @Test
 public void specialChUserNameTest() {
     CustomerLoginPojo credentials = new CustomerLoginPojo();
